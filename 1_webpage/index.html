@@ -2,53 +2,69 @@
 <html lang="ja">
   <head>
     <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
     <title>Nanatsuboshi-Katoke</title>
+    <script src="https://kit.fontawesome.com/5f9cac3054.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
+    <a href="#main-visual" class="scroll-top-btn">
+      <i class="fas fa-chevron-circle-up"></i>
+    </a>
     <header>
-        <div class="header-group">
+        <div class="container header-group">
           <a href="index.html">
             <img src="img/ななつぼしろご.png" width="50" alt="logo" class="logo-image">
           </a>
-          <nav>
+          <nav id="sp-menu">
             <ul>
               <li class="nav-list">
-                <a href="index.html">Home</a>
+                <a href="#gallary">Gallary</a>
               </li>
               <li class="nav-list">
-                <a href="index.html">Gallary</a>
+                <a href="#future">Future</a>
               </li>
               <li class="nav-list">
-                <a href="index.html">Profile</a>
+                <a href="#profile">Profile</a>
               </li>
               <li class="nav-list">
-                <a href="index.html">Contact</a>
+                <a href="#contact">Contact</a>
               </li>
             </ul>
           </nav>
-        </div>  
+            <div id="hm-icon">
+              <a class="menu-trigger" href="#">
+                <span></span>
+                <span></span>
+                <span></span>
+              </a>
+            </div>
+          </div>
+        </div>
+        
     </header>
-    
+
     <main>
-      <div class="main-visual">
-        <div class="main-visual-title">
-          <h1>Kato Family</h1>
+      <section id="main-visual">
+        <div class="container">
+          <div class="main-visual-title">
+            <h1>Kato Family</h1>
+          </div>
+          <div class="main-visual-text">
+            <p><strong>"Bringing boundless joy to the world with our radiant smiles."</strong></strong></p>
+          </div>
         </div>
-        <div class="main-visual-text">
-          <p><strong>"Bringing boundless joy to the world with our radiant smiles."</p>
-        </div>
-      </div>
-    
-    <section class="gallary">
-      <div class="gallary-box">
-      
-        <h2 class="gallary-heading">Gallary</h2>
-        <div class="gallary-text">
-          <p>"The cherished photograph of us,<br>
-              taken by photographer OGU,<br>
-               capturing our precious memories."
-          </p>
+      </section>
+
+      <section id="gallary">
+        <div class="container">
+          <h2 class="heading">Gallary</h2>
+          <div class="heading-text">
+            <p>"The cherished photograph of us,<br>
+                taken by photographer OGU,<br>
+                 capturing our precious memories."
+            </p>
+          </div>
           <div class="gallary-visual">
             <div class="gallary-row">
               <div class="gallary1"></div>
@@ -62,16 +78,98 @@
             </div>
           </div>
         </div>
-      </div>
-    </section>
-    
-    <section class="profile">
-      <h2 class="profile-heading">Profile</h2>
-    </section>
-    
+      </section>
+
+      <section id="future">
+        <div class="conatainer">
+        <h2 class="heading">Future</h2>
+          <div class="heading-text">
+            <p>"We create three happinesses."</p>
+          </div>
+          <div class="point-box">
+            <div class="first-point">
+              <i class="fas fa-star-of-david size"></i>
+              <h3 class="point-title">Happy</h3>
+              <div class="box-text">
+                <p>1つ目のポイント</p>
+              </div>
+            </div>
+            <div class="second-point">
+              <i class="fas fa-laugh-beam size"></i>
+              <h3 class="point-title">Happy</h3>
+              <div class="box-text">
+                <p>2つ目のポイント</p>
+              </div>
+            </div>
+            <div class="third-point">
+              <i class="fas fa-hand-peace size"></i>
+              <h3 class="point-title">Happy</h3>
+              <div class="box-text">
+                <p>3つ目のポイント</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="profile">
+        <div class="container">
+          <h2 class="heading">Profile</h2>
+          <p class="heading-text">
+            text
+          </p>
+          <div class="profile-group">
+            <div class="left-content">
+              <div class="our-faces"></div>
+            </div>
+            <div class="right-content">
+              <h3 class="profile-name">
+                Mokkun
+              </h3>
+              <p class="profile-text">
+                プログラミング勉強中。
+              </p>
+              <h3 class="profile-name">
+                Maamu
+              </h3>
+              <p class="profile-text">
+                スーパー人事。
+              </p>
+              <h3 class="profile-name">
+                Yuchii
+              </h3>
+              <p class="profile-text">
+                1歳4か月。おしゃべり大好きな可愛い子。
+              </p>            
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="contact">
+        <div class="container">
+          <h2 class="heading">Contact</h2>
+          <p class="heading-text">
+            なんでも気軽にご連絡ください。
+          </p>
+          <div class="contact-group">
+            <h3 class="contact-title">SNS</h3>
+            <a href="mailto:nanatsuboshi.1006@gmail.com" class="sns-link"><i class="fas fa-envelope"></i></a>
+            <a href="https://www.instagram.com/yucheese3658/" class="sns-link"><i class="fab fa-instagram"></i></a>
+            <a href="https://twitter.com/katoke1006?t=MjS64oavTEnVdz9jIwhaIw&s=09" class="sns-link"><i class="fab fa-twitter"></i></a>
+            <a href="https://www.tiktok.com/@nanatsuboshi.kato?is_from_webapp=1&sender_device=pc" class="sns-link"><i class="fab fa-tiktok"></i></a>
+            <a href="https://youtube.com/@Katoke-nanatsuboshi" class="sns-link"><i class="fab fa-youtube"></i></a>
+          </div>
+        </div>
+      </section>
     </main>
+
+    <footer>
+      <p class="footer-text">2023 Nanatsuboshi-Kato</p>
+    </footer>
     
-    
+    <script src="js/jquery.min.js"></script>
+    <script src="js/script.js"></script>
   </body>
-  
+
 </html>
